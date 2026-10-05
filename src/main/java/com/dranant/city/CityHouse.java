@@ -133,10 +133,10 @@ public final class CityHouse {
         put(bp, 10, 1, -6, FurnitureType.COFFEE_TABLE, N);
         put(bp, 11, 1, -6, FurnitureType.COFFEE_TABLE, N);
         for (int z = -9; z <= -6; z++) {
-            bp.set(17, 1, z, st(Blocks.CHISELED_BOOKSHELF).setValue(net.minecraft.world.level.block.ChiseledBookShelfBlock.FACING, W));
+            bp.set(17, 1, z, st(Blocks.CHISELED_BOOKSHELF).setValue(net.minecraft.world.level.block.state.properties.BlockStateProperties.HORIZONTAL_FACING, W));
             bp.set(17, 2, z, st(Blocks.BOOKSHELF));
         }
-        bp.set(17, 1, 1, st(Blocks.POTTED_FLOWERING_AZALEA_BUSH));
+        bp.set(17, 1, 1, st(Blocks.POTTED_FLOWERING_AZALEA));
         bp.set(5, 1, 1, st(Blocks.POTTED_BAMBOO));
 
         // ================= staircase (x 2..3) climbing north to the first floor
@@ -219,7 +219,7 @@ public final class CityHouse {
         put(bp, -16, 6, -4, FurnitureType.MODERN_SOFA, E);
         put(bp, -16, 6, -3, FurnitureType.MODERN_SOFA, E);
         put(bp, -14, 6, -4, FurnitureType.COFFEE_TABLE, N);
-        bp.set(-17, 6, -8, st(Blocks.POTTED_FLOWERING_AZALEA_BUSH));
+        bp.set(-17, 6, -8, st(Blocks.POTTED_FLOWERING_AZALEA));
         bp.set(-17, 6, 1, st(Blocks.POTTED_BAMBOO));
 
         // ================= infinity pool (x -17..-5, z 6..10) + loungers
