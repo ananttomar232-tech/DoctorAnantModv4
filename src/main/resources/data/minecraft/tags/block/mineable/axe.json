@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "dranant:modern_sofa",
+    "dranant:coffee_table",
+    "dranant:tv_stand",
+    "dranant:dining_table",
+    "dranant:dining_chair",
+    "dranant:kitchen_counter",
+    "dranant:kitchen_sink",
+    "dranant:kitchen_stove",
+    "dranant:fridge",
+    "dranant:floor_lamp",
+    "dranant:office_desk",
+    "dranant:modern_toilet",
+    "dranant:bathroom_vanity"
+  ]
+}

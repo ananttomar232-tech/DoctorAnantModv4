@@ -1,0 +1,20 @@
+{
+ "variants": {
+  "facing=north": {
+   "model": "dranant:block/furniture/tv_stand",
+   "y": 0
+  },
+  "facing=east": {
+   "model": "dranant:block/furniture/tv_stand",
+   "y": 90
+  },
+  "facing=south": {
+   "model": "dranant:block/furniture/tv_stand",
+   "y": 180
+  },
+  "facing=west": {
+   "model": "dranant:block/furniture/tv_stand",
+   "y": 270
+  }
+ }
+}

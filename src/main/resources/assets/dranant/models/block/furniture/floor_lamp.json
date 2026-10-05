@@ -1,0 +1,279 @@
+{
+ "parent": "minecraft:block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "black_steel": "dranant:block/furniture/black_steel",
+  "chrome": "dranant:block/furniture/chrome",
+  "lamp_shade": "dranant:block/furniture/lamp_shade",
+  "linen": "dranant:block/furniture/linen",
+  "particle": "dranant:block/furniture/black_steel"
+ },
+ "elements": [
+  {
+   "from": [
+    4.5,
+    0,
+    4.5
+   ],
+   "to": [
+    11.5,
+    1,
+    11.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#black_steel",
+     "uv": [
+      4.5,
+      15,
+      11.5,
+      16
+     ]
+    },
+    "south": {
+     "texture": "#black_steel",
+     "uv": [
+      4.5,
+      15,
+      11.5,
+      16
+     ]
+    },
+    "east": {
+     "texture": "#black_steel",
+     "uv": [
+      4.5,
+      15,
+      11.5,
+      16
+     ]
+    },
+    "west": {
+     "texture": "#black_steel",
+     "uv": [
+      4.5,
+      15,
+      11.5,
+      16
+     ]
+    },
+    "up": {
+     "texture": "#black_steel",
+     "uv": [
+      4.5,
+      4.5,
+      11.5,
+      11.5
+     ]
+    },
+    "down": {
+     "texture": "#black_steel",
+     "uv": [
+      4.5,
+      4.5,
+      11.5,
+      11.5
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    7.5,
+    1,
+    7.5
+   ],
+   "to": [
+    8.5,
+    11,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#chrome",
+     "uv": [
+      7.5,
+      5,
+      8.5,
+      15
+     ]
+    },
+    "south": {
+     "texture": "#chrome",
+     "uv": [
+      7.5,
+      5,
+      8.5,
+      15
+     ]
+    },
+    "east": {
+     "texture": "#chrome",
+     "uv": [
+      7.5,
+      5,
+      8.5,
+      15
+     ]
+    },
+    "west": {
+     "texture": "#chrome",
+     "uv": [
+      7.5,
+      5,
+      8.5,
+      15
+     ]
+    },
+    "up": {
+     "texture": "#chrome",
+     "uv": [
+      7.5,
+      7.5,
+      8.5,
+      8.5
+     ]
+    },
+    "down": {
+     "texture": "#chrome",
+     "uv": [
+      7.5,
+      7.5,
+      8.5,
+      8.5
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    4,
+    11,
+    4
+   ],
+   "to": [
+    12,
+    16,
+    12
+   ],
+   "faces": {
+    "north": {
+     "texture": "#lamp_shade",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "south": {
+     "texture": "#lamp_shade",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "east": {
+     "texture": "#lamp_shade",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "west": {
+     "texture": "#lamp_shade",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "up": {
+     "texture": "#linen",
+     "uv": [
+      4,
+      4,
+      12,
+      12
+     ]
+    },
+    "down": {
+     "texture": "#linen",
+     "uv": [
+      4,
+      4,
+      12,
+      12
+     ]
+    }
+   }
+  }
+ ],
+ "display": {
+  "gui": {
+   "rotation": [
+    30,
+    225,
+    0
+   ],
+   "scale": [
+    0.625,
+    0.625,
+    0.625
+   ]
+  },
+  "fixed": {
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "ground": {
+   "scale": [
+    0.25,
+    0.25,
+    0.25
+   ],
+   "translation": [
+    0,
+    3,
+    0
+   ]
+  },
+  "thirdperson_righthand": {
+   "rotation": [
+    75,
+    45,
+    0
+   ],
+   "translation": [
+    0,
+    2.5,
+    0
+   ],
+   "scale": [
+    0.375,
+    0.375,
+    0.375
+   ]
+  },
+  "firstperson_righthand": {
+   "rotation": [
+    0,
+    45,
+    0
+   ],
+   "scale": [
+    0.4,
+    0.4,
+    0.4
+   ]
+  }
+ }
+}

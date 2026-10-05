@@ -1,0 +1,210 @@
+{
+ "parent": "minecraft:block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "black_steel": "dranant:block/furniture/black_steel",
+  "fridge_front": "dranant:block/furniture/fridge_front",
+  "steel": "dranant:block/furniture/steel",
+  "particle": "dranant:block/furniture/fridge_front"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    1
+   ],
+   "to": [
+    16,
+    31,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#fridge_front",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "south": {
+     "texture": "#steel",
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ]
+    },
+    "east": {
+     "texture": "#steel",
+     "uv": [
+      0,
+      0,
+      15,
+      16
+     ]
+    },
+    "west": {
+     "texture": "#steel",
+     "uv": [
+      1,
+      0,
+      16,
+      16
+     ]
+    },
+    "up": {
+     "texture": "#steel",
+     "uv": [
+      0,
+      1,
+      16,
+      16
+     ]
+    },
+    "down": {
+     "texture": "#steel",
+     "uv": [
+      0,
+      0,
+      16,
+      15
+     ]
+    }
+   }
+  },
+  {
+   "from": [
+    0,
+    31,
+    1
+   ],
+   "to": [
+    16,
+    32,
+    16
+   ],
+   "faces": {
+    "north": {
+     "texture": "#black_steel",
+     "uv": [
+      0,
+      0,
+      16,
+      1
+     ]
+    },
+    "south": {
+     "texture": "#black_steel",
+     "uv": [
+      0,
+      0,
+      16,
+      1
+     ]
+    },
+    "east": {
+     "texture": "#black_steel",
+     "uv": [
+      0,
+      0,
+      15,
+      1
+     ]
+    },
+    "west": {
+     "texture": "#black_steel",
+     "uv": [
+      1,
+      0,
+      16,
+      1
+     ]
+    },
+    "up": {
+     "texture": "#black_steel",
+     "uv": [
+      0,
+      1,
+      16,
+      16
+     ]
+    },
+    "down": {
+     "texture": "#black_steel",
+     "uv": [
+      0,
+      0,
+      16,
+      15
+     ]
+    }
+   }
+  }
+ ],
+ "display": {
+  "gui": {
+   "rotation": [
+    30,
+    225,
+    0
+   ],
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "fixed": {
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "ground": {
+   "scale": [
+    0.25,
+    0.25,
+    0.25
+   ],
+   "translation": [
+    0,
+    3,
+    0
+   ]
+  },
+  "thirdperson_righthand": {
+   "rotation": [
+    75,
+    45,
+    0
+   ],
+   "translation": [
+    0,
+    2.5,
+    0
+   ],
+   "scale": [
+    0.375,
+    0.375,
+    0.375
+   ]
+  },
+  "firstperson_righthand": {
+   "rotation": [
+    0,
+    45,
+    0
+   ],
+   "scale": [
+    0.4,
+    0.4,
+    0.4
+   ]
+  }
+ }
+}

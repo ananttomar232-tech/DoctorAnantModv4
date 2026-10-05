@@ -1,0 +1,32 @@
+{
+ "variants": {
+  "facing=north,half=lower": {
+   "model": "dranant:block/furniture/fridge",
+   "y": 0
+  },
+  "facing=north,half=upper": {
+   "model": "dranant:block/furniture/empty"
+  },
+  "facing=east,half=lower": {
+   "model": "dranant:block/furniture/fridge",
+   "y": 90
+  },
+  "facing=east,half=upper": {
+   "model": "dranant:block/furniture/empty"
+  },
+  "facing=south,half=lower": {
+   "model": "dranant:block/furniture/fridge",
+   "y": 180
+  },
+  "facing=south,half=upper": {
+   "model": "dranant:block/furniture/empty"
+  },
+  "facing=west,half=lower": {
+   "model": "dranant:block/furniture/fridge",
+   "y": 270
+  },
+  "facing=west,half=upper": {
+   "model": "dranant:block/furniture/empty"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "dranant:fridge"
+    }
+   ],
+   "conditions": [
+    {
+     "condition": "minecraft:survives_explosion"
+    },
+    {
+     "condition": "minecraft:block_state_property",
+     "block": "dranant:fridge",
+     "properties": {
+      "half": "lower"
+     }
+    }
+   ]
+  }
+ ]
+}
